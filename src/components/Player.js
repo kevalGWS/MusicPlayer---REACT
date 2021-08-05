@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faPlayCircle,faForward,faBackward,faPauseCircle,faVolumeDown,} from "@fortawesome/free-solid-svg-icons";
+import {faPlayCircle,faForward,faBackward,faPauseCircle} from "@fortawesome/free-solid-svg-icons";
 
-import { playAudio } from "../util";
 
 const Player = (a) => {
   

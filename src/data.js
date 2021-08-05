@@ -1,6 +1,6 @@
 import { v4 as uidv4 } from "uuid";
 
-function SonuKeSurile() {
+function songAPI() {
     return [
     {
       name: "Dawn",
@@ -104,4 +104,4 @@ function SonuKeSurile() {
   }
   
 
-export default SonuKeSurile;
+export default songAPI;

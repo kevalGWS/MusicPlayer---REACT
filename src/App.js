@@ -8,10 +8,9 @@ import Library from "./components/Library";
 import Nav from "./components/Nav";
 
 //Import data
-import SonuKeSurile from "./data";
+import songAPI from "./data";
 
-//Util class
-import { playAudio } from "./util";
+
 
 //hello
 
@@ -23,7 +22,7 @@ function App() {
   const audioRef = useRef(null);
   
   //states
-  const [songs, setSongs] = useState(SonuKeSurile());
+  const [songs, setSongs] = useState(songAPI());
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlay, setIsPlay] = useState(false);
   const [songInfo, setSongInfo] = useState({
